@@ -82,9 +82,10 @@ ul li a:hover {
 
 .projects {
   width: 80%;
+  height: fit-content;
   margin: auto;
-  /* background-image: url(../project_image.webp)!important;
-     */
+  background-image: url(../project_image.webp)!important;
+    
 
   color: white;
   margin-top: 5rem;
@@ -176,6 +177,8 @@ ul li a:hover {
   padding: 10px;
 }
 
+
+
 .icons .icon-info h3,
 p {
   color: white;
@@ -184,6 +187,7 @@ p {
 
 .icon-info .imgs img {
   margin-right: 5px;
+  
 }
 
 .icons .form {
@@ -266,10 +270,12 @@ button {
   border: none;
   background-color: #a640ff;
   overflow: hidden;
-  border-radius: 32px;
+  border-radius: 32px !important;
   transition: color 0.4s ease-in-out;
   box-shadow: 0 0 20px #a640ff;
   margin-top: 0.4rem;
+  margin-top: 8px!important;
+  
 }
 
 button::before {
