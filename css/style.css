@@ -8,11 +8,11 @@
   
 }
 
-.container {
+.containerr {
   background: #222323;
 
   width: 100%;
-  min-height: 100vh;
+  height: 100%;
   overflow: hidden;
   background-image: url(../hero_image.webp);
 }
@@ -100,22 +100,24 @@ ul li a:hover {
 
 .pro_info {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(380px, auto));
   justify-content: space-between;
   gap: 30px;
 }
 
-.card .info {
+.cardd .info {
   display: flex;
   justify-content: space-between;
+  
 }
 
-.card .info p {
+.cardd .info p {
   color: #808080;
+
 }
 
 /* photo animation */
-.card a img:hover {
+.cardd a img:hover {
   border: 0.5px solid #ffffff;
   box-shadow: 0 0 15px #a640ff;
 }
@@ -200,6 +202,7 @@ p {
   gap: 8px;
   width: 40%;
   /* White */
+  margin-bottom: 20px;
 
   background: #ffffff;
   /* Gray/200 */
@@ -249,7 +252,6 @@ p {
 
 
 .footer{
-
   background-image: url(footer_image.webp);
 }
 /* buttons */
