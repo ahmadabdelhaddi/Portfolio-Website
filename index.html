@@ -22,87 +22,96 @@
       crossorigin="anonymous"
     />
 
+    <style>
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #fff;
+        padding: 10px;
+        width: 80%;
+        margin: auto;
+      }
 
+      .logo {
+        font-size: 20px;
+        font-weight: bold;
+      }
 
-    
-<style>
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: #fff;
-  padding: 10px;
-  width: 80%;
-  margin: auto;
-}
+      .menu-icon {
+        cursor: pointer;
+        font-size: 24px;
+        margin-right: 0px;
+        display: none;
+      }
 
-.logo {
-  font-size: 20px;
-  font-weight: bold;
-}
+      .menu {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+      }
 
-.menu-icon {
-  cursor: pointer;
-  font-size: 24px;
-  margin-right: 0px;
-  display: none;
-}
+      .menu li {
+        margin-left: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
 
-.menu {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  justify-content: center;
-  align-items: center;
-}
+      .menu li a {
+        color: #fff;
+        text-decoration: none;
+      }
 
-.menu li {
-  margin-left: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
+      .menu li a:hover {
+        color: #a640ff;
+      }
 
-.menu li a {
-  color: #fff;
-  text-decoration: none;
-}
+      @media only screen and (max-width: 450px) {
+        .projects {
+          width: 80%;
+          margin: auto;
 
-.menu li a:hover {
-  color:  #a640ff;
-}
+          color: white;
+          margin-top: 25rem;
+        }
 
-@media screen and (max-width: 800px) {
-  .menu {
-    display: none;
-    position: absolute;
-    top: 60px;
-    right: 30px;
-    /* width: 39%; */
-    background-color: #333;
-    padding: 5px;
-    text-align: center;
-    z-index: 5;
+        .projects div img{
+          width: 300px;
+    border-radius: 8px;
+        }
+      }
+      /*  */
+      @media screen and (max-width: 800px) {
+        .menu {
+          display: none;
+          position: absolute;
+          top: 60px;
+          right: 30px;
+          /* width: 39%; */
+          background-color: #333;
+          padding: 5px;
+          text-align: center;
+          z-index: 5;
+        }
+        /*  */
+        .menu li {
+          margin: 10px 0;
+        }
 
-    
-  }
-  
-  .menu li {
-    margin: 10px 0;
-  }
-  
-  .menu-icon {
-    display: block;
-  }
-  
-  #menu-toggle:checked ~ .menu {
-    display: block;
-  }
-}
+        .menu-icon {
+          display: block;
+        }
 
-  </style>
+        #menu-toggle:checked ~ .menu {
+          display: block;
+        }
+      }
+    </style>
   </head>
 
   <body>
@@ -119,8 +128,10 @@ nav {
         </ul>
       </header> -->
       <nav>
-        <div class="logo"><a href="index.html"> <img src="logo1.png" alt=""></a></div>
-        <input type="checkbox" style="visibility: hidden;" id="menu-toggle">
+        <div class="logo">
+          <a href="index.html"> <img src="logo1.png" alt="" /></a>
+        </div>
+        <input type="checkbox" style="visibility: hidden" id="menu-toggle" />
 
         <label for="menu-toggle" class="menu-icon">&#9776;</label>
         <ul class="menu">
@@ -128,14 +139,10 @@ nav {
           <li><a href="projects.html">Projects</a></li>
           <li><a href="contact.html">Contact Us</a></li>
           <li>
-            <a  download="CV.jpg"><button>Download CV</button></a>
+            <a download="CV.jpg"><button>Download CV</button></a>
           </li>
         </ul>
       </nav>
-      
-
-
-
 
       <div class="content">
         <div class="text">
