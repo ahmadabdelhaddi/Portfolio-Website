@@ -21,221 +21,6 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
-
-    <style>
-      nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        color: #fff;
-        padding: 10px;
-        width: 80%;
-        margin: auto;
-      }
-
-      .logo {
-        font-size: 20px;
-        font-weight: bold;
-      }
-
-      .menu-icon {
-        cursor: pointer;
-        font-size: 24px;
-        margin-right: 0px;
-        display: none;
-      }
-
-      .menu {
-        display: flex;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        justify-content: center;
-        align-items: center;
-      }
-
-      .menu li {
-        margin-left: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-      }
-
-      .menu li a {
-        color: #fff;
-        text-decoration: none;
-      }
-
-      .menu li a:hover {
-        color: #a640ff;
-      }
-
-      @media only screen and (max-width: 500px) {
-        .contact {
-          display: flex;
-          flex-direction: column;
-        }
-
-        .icons {
-          display: flex;
-          flex-direction: column;
-        }
-
-        .icons .form {
-          width: 300px;
-        }
-        .icons .form > input:nth-child(2) {
-          padding: 10px 14px;
-          width: 250px;
-          height: 200px;
-          background: #ffffff;
-          border: 1px solid #d5dae1;
-          box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
-          border-radius: 8px;
-        }
-        .icons .form input {
-          padding: 10px 14px;
-          width: 250px;
-          background: #ffffff;
-          border: 1px solid #d5dae1;
-          box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
-          border-radius: 8px;
-        }
-        .projects {
-          width: 80%;
-          margin: auto;
-
-          color: white;
-          margin-top: 25rem;
-        }
-
-        .projects div img {
-          width: 300px;
-          border-radius: 8px;
-        }
-
-        .icons .icon-info h3,
-        p {
-          color: white;
-          width: 300px;
-        }
-
-        .content .text p {
-          font-size: 10px;
-          margin: 10px 0;
-        }
-
-        .content .text h1 {
-          font-size: 20px;
-          text-transform: uppercase;
-        }
-      }
-
-      @media screen and (min-width: 501px) and (max-width: 800px) {
-        .icons .icon-info h3,
-        p {
-          color: white;
-          width: 300px;
-        }
-
-        .content .text p {
-          font-size: 14px;
-          margin: 10px 0;
-        }
-
-        .content .text h1 {
-          font-size: 23px;
-          text-transform: uppercase;
-        }
-
-        .contact {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-
-        .icons {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-        }
-
-        .icons .form {
-          width: 444px;
-        }
-        .icons .form > input:nth-child(2) {
-          padding: 10px 14px;
-          width: 405px;
-          height: 200px;
-          background: #ffffff;
-          border: 1px solid #d5dae1;
-          box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
-          border-radius: 8px;
-        }
-        .icons .form input {
-          padding: 10px 14px;
-          width: 405px;
-          background: #ffffff;
-          border: 1px solid #d5dae1;
-          box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
-          border-radius: 8px;
-        }
-      }
-
-      /*  */
-      @media screen and (max-width: 801px) {
-        .menu {
-          display: none;
-          position: absolute;
-          top: 60px;
-          right: 30px;
-          /* width: 39%; */
-          background-color: #333;
-          padding: 5px;
-          text-align: center;
-          z-index: 5;
-        }
-        /*  */
-        .menu li {
-          margin: 10px 0;
-        }
-
-        .menu-icon {
-          display: block;
-        }
-
-        #menu-toggle:checked ~ .menu {
-          display: block;
-        }
-      }
-
-      @media screen and (min-width: 802px) {
-        .icons .icon-info h3,
-        p {
-          color: white;
-          width: 300px;
-        }
-
-        .content .text h1 {
-          font-size: 23px;
-          text-transform: uppercase;
-        }
-        .content .text {
-          color: white;
-          width: 50%;
-          z-index: 99;
-        }
-
-        .content .text p {
-          font-size: 18px;
-          margin: 10px 0;
-          width: 542px;
-        }
-      }
-    </style>
   </head>
 
   <body>
@@ -263,7 +48,7 @@
           <li><a href="projects.html">Projects</a></li>
           <li><a href="contact.html">Contact Us</a></li>
           <li>
-            <a download="CV.jpg"><button>Download CV</button></a>
+            <a href="cv.pdf" download><button>Download CV</button></a>
           </li>
         </ul>
       </nav>
@@ -279,13 +64,56 @@
             mainly in Back-End Develop and UI Design and I have a great
             experience in both.
           </p>
-          <button>Hire Me</button>
+          <a href="https://iwtsp.com/962796618504"><button>Hire Me</button></a> 
         </div>
         <div class="image">
           <img src="img.png" />
         </div>
       </div>
 
+      <div class="skills">
+        <h1>Skills</h1>
+
+        <div class="card-group">
+          <div class="card">
+            <img class="img " src="solving.png" width="70px" height="70px"alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Problem-Solving</h5>
+              <p class="card-text text-dark">
+                Developers should be able to analyze complex problems, identify
+                potential solutions, and implement effective strategies to solve
+                them. They should have a logical and analytical mindset to find
+                creative solutions..
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="img " src="creativety.png" width="70px" height="70px" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title " style="align-items:center;">Creativity</h5>
+              <p class="card-text text-dark">
+                Creativity is the ability to think outside the box and come up
+                with innovative and unique solutions to problems. In the context
+                of software development, creativity is essential for developers
+                to design and develop software that meets user requirements in a
+                creative and innovative way.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="img m-auto" src="learning.png" width="70px" height="70px" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Continuous Learning</h5>
+              <p class="card-text text-dark">
+                Developers should keep themselves updated with the latest
+                technologies and industry trends. They should have the
+                willingness to learn and adapt to new technologies to stay
+                competitive.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
       <!-- Start Projects Section -->
       <div class="projects">
         <div class="text">
@@ -294,7 +122,7 @@
 
         <div class="pro_info">
           <div class="cardd">
-            <a href=""><img src="pro_1.png" /></a>
+            <a target="_blank" href="https://www.behance.net/gallery/167825927/PizzaClick-Website-Landing-page-UIUX"><img src="pro_1.png" /></a>
             <div class="info">
               <h5>PizzaCLick App</h5>
               <p>UI/UX</p>
@@ -302,20 +130,21 @@
           </div>
 
           <div class="cardd">
-            <a href=""><img src="pro_1.png" /></a>
-            <div class="info">
-              <h5>PizzaCLick App</h5>
-              <p>UI/UX</p>
-            </div>
-          </div>
-
-          <div class="cardd">
-            <a href=""><img src="pro-2.png" /></a>
+            <a  target="_blank" href="https://www.behance.net/gallery/166807751/-UIUX"><img src="pro-2.png" /></a>
             <div class="info">
               <h5>Toronto Cupcake App</h5>
               <p>UI/UX</p>
             </div>
           </div>
+          <div class="cardd">
+            <a href=""><img src="pro_1.png" /></a>
+            <div class="info">
+              <h5>PizzaCLick App</h5>
+              <p>UI/UX</p>
+            </div>
+          </div>
+
+        
           <div class="cardd">
             <a href=""><img src="pro_1.png" /></a>
             <div class="info">
