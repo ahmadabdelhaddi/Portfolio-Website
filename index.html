@@ -21,6 +21,29 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
+
+    <style>
+
+.card-text:last-child {
+    margin-bottom: 0;
+    width: 101%;
+}
+
+.projects .text {
+  display: flex;
+  justify-content: space-between;
+  
+ }
+  
+ .projects .text a {
+  text-decoration: none;
+  color: white;
+ }
+ .projects .text h6 a:hover {
+  color: #a640ff;  
+  
+ }
+    </style>
   </head>
 
   <body>
@@ -68,7 +91,10 @@
         </div>
         <div class="image">
           <img src="img.png" />
+          <hr style="border: 4px solid #a640ff; position: relative; bottom:8px; box-shadow: 0 0 40px #a640ff;">
+
         </div>
+
       </div>
 
       <div class="skills">
@@ -76,7 +102,7 @@
 
         <div class="card-group">
           <div class="card">
-            <img class="img " src="solving.png" width="70px" height="70px"alt="Card image cap" />
+            <img class="img " src="solving.png" width="70px" height="70px"alt="Problem-Solving image " />
             <div class="card-body">
               <h5 class="card-title">Problem-Solving</h5>
               <p class="card-text text-dark">
@@ -88,7 +114,7 @@
             </div>
           </div>
           <div class="card">
-            <img class="img " src="creativety.png" width="70px" height="70px" alt="Card image cap" />
+            <img class="img " src="creativety.png" width="70px" height="70px" alt="Creativity image " />
             <div class="card-body">
               <h5 class="card-title " style="align-items:center;">Creativity</h5>
               <p class="card-text text-dark">
@@ -101,7 +127,7 @@
             </div>
           </div>
           <div class="card">
-            <img class="img m-auto" src="learning.png" width="70px" height="70px" alt="Card image cap" />
+            <img class="img m-auto" src="learning.png" width="70px" height="70px" alt="Continuous Learning image " />
             <div class="card-body">
               <h5 class="card-title">Continuous Learning</h5>
               <p class="card-text text-dark">
@@ -118,8 +144,10 @@
       <div class="projects">
         <div class="text">
           <h1>Projects</h1>
-        </div>
+          <h6> <a href="projects.html">See All</a></h6>
 
+        </div>
+       
         <div class="pro_info">
           <div class="cardd">
             <a target="_blank" href="https://www.behance.net/gallery/167825927/PizzaClick-Website-Landing-page-UIUX"><img src="pro_1.png" /></a>
@@ -144,30 +172,7 @@
             </div>
           </div>
 
-        
-          <div class="cardd">
-            <a href=""><img src="pro_1.png" /></a>
-            <div class="info">
-              <h5>PizzaCLick App</h5>
-              <p>UI/UX</p>
-            </div>
-          </div>
-
-          <div class="cardd">
-            <a href=""><img src="pro_1.png" /></a>
-            <div class="info">
-              <h5>PizzaCLick App</h5>
-              <p>UI/UX</p>
-            </div>
-          </div>
-
-          <div class="cardd">
-            <a href=""><img src="pro-2.png" /></a>
-            <div class="info">
-              <h5>Toronto Cupcake App</h5>
-              <p>UI/UX</p>
-            </div>
-          </div>
+       
         </div>
       </div>
       <!-- End Projects Section -->
