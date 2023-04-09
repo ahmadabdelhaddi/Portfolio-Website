@@ -562,7 +562,9 @@ nav {
   }
 }
 
-@media screen and (min-width: 789px) {
+
+@media screen and (min-width: 789px) and (max-width: 900) {
+
   .icons .icon-info h3,
   p {
     color: white;
@@ -586,4 +588,51 @@ nav {
   }
 
   
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icons .form {
+    width: 444px;
+  }
+
+  .icons .form {
+    background-color: #ffffff;
+    width: 300px;
+    height: 400px;
+    border-radius: 6px;
+    grid-area: form;
+}
+
+  .icons .form > input:nth-child(2) {
+    padding: 10px 14px;
+    width: 405px;
+    height: 200px;
+    background: #ffffff;
+    border: 1px solid #d5dae1;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+  }
+  .icons .form input {
+    padding: 10px 14px;
+    width: 405px;
+    background: #ffffff;
+    border: 1px solid #d5dae1;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+  }
+  
+}
+
+@media screen and (min-width: 900px)  {
 }
