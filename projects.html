@@ -30,19 +30,19 @@
         width: 80%;
         margin: auto;
       }
-      
+
       .logo {
         font-size: 20px;
         font-weight: bold;
       }
-      
+
       .menu-icon {
         cursor: pointer;
         font-size: 24px;
         margin-right: 0px;
         display: none;
       }
-      
+
       .menu {
         display: flex;
         list-style: none;
@@ -51,7 +51,7 @@
         justify-content: center;
         align-items: center;
       }
-      
+
       .menu li {
         margin-left: 20px;
         display: flex;
@@ -59,14 +59,16 @@
         align-items: center;
         flex-direction: column;
       }
-      
+
       .menu li a {
         color: #fff;
         text-decoration: none;
       }
-      
+      .cardd .info {
+        padding: 10px 0;
+      }
       .menu li a:hover {
-        color:  #a640ff;
+        color: #a640ff;
       }
       @media only screen and (max-width: 450px) {
         .projects {
@@ -77,9 +79,9 @@
           margin-top: 25rem;
         }
 
-        .projects div img{
+        .projects div img {
           width: 300px;
-    border-radius: 8px;
+          border-radius: 8px;
         }
       }
       @media screen and (max-width: 800px) {
@@ -93,29 +95,26 @@
           padding: 5px;
           text-align: center;
           z-index: 5;
-      
-          
         }
-        
+
         .menu li {
           margin: 10px 0;
         }
-        
+
         .menu-icon {
           display: block;
         }
-        
+
         #menu-toggle:checked ~ .menu {
           display: block;
         }
       }
-      
-        </style>
-        </head>
-      
-        <body>
-          <div class="containerr">
-            <!-- <header>
+    </style>
+  </head>
+
+  <body>
+    <div class="containerr">
+      <!-- <header>
               <a href=""><img src="logo1.png" class="logo" /></a>
               <ul>
                 <li><a href="index.html">Home</a></li>
@@ -126,30 +125,134 @@
                 </li>
               </ul>
             </header> -->
-            <nav>
-              <div class="logo"><a href="index.html"> <img src="logo1.png" alt=""></a></div>
-              <input style="visibility: hidden;" type="checkbox" id="menu-toggle">
-      
-              <label for="menu-toggle" class="menu-icon">&#9776;</label>
-              <ul class="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-                <li>
-                  <a  download="CV.jpg"><button>Download CV</button></a>
-                </li>
-              </ul>
-            </nav>
-            
+      <nav>
+        <div class="logo">
+          <a href="index.html"> <img src="logo1.png" alt="" /></a>
+        </div>
+        <input style="visibility: hidden" type="checkbox" id="menu-toggle" />
+
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li>
+            <a download="CV.jpg"><button>Download CV</button></a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Start Projects Section -->
+      <!-- Start Projects Section -->
       <!-- Start Projects Section -->
       <div class="projects">
         <div class="text">
-          <h1>All Projects</h1>
+          <h1>Web Projects</h1>
+          <h6><a href="projects.html">See All</a></h6>
+        </div>
+
+        <div class="pro_info">
+          <!--  -->
+
+          <div class="cardd">
+            <a
+              target="_blank"
+              href="https://ahmadabdelhaddi.github.io/GitHub_Finder/"
+              ><img
+                width="550px"
+                src="https://www.freecodecamp.org/news/content/images/2021/10/github-on-the-hunt-for-a-new-diversity-lead-developers-techworld-github-universe-png-800_450.png"
+            /></a>
+            <div class="info">
+              <h5>Github Finder</h5>
+              <p>JS/Css/Html</p>
+            </div>
+          </div>
+
+          <!--  -->
+          <div class="cardd">
+            <a target="_blank" href="https://ahmadabdelhaddi.github.io/ExamIQ/"
+              ><img width="550px" height="225px" src="weee.jpeg"
+            /></a>
+            <div class="info">
+              <h5>ExamIQ</h5>
+              <p>JS/Html/Css</p>
+            </div>
+          </div>
+
+          <div class="cardd">
+            <a target="_blank" href=""
+              ><img
+                width="550px"
+                height="225px"
+                src="https://i2.wp.com/www.theweddingvowsg.com/wp-content/uploads/2021/05/michael-trio-diamond-simulants-singapore.jpg?resize=468%2C215&ssl=1"
+            /></a>
+            <div class="info">
+              <h5>Jewelry Store</h5>
+              <p>React/Js/Json</p>
+            </div>
+          </div>
+
+          <div class="cardd">
+            <a
+              target="_blank"
+              href="https://ahmadabdelhaddi.github.io/GitHub_Finder/"
+              ><img
+                height="225px"
+                src="https://designshack.net/wp-content/uploads/facebook-cover-image-tips.png"
+            /></a>
+            <div class="info">
+              <h5>Facebook</h5>
+              <p>Post/Commnt</p>
+            </div>
+          </div>
+
+          <!--  -->
+          <div class="cardd">
+            <a
+              target="_blank"
+              href="https://ahmadabdelhaddi.github.io/Sadaka-Website---Hackathon-/"
+              ><img width="550px" src="ppppp.png"
+            /></a>
+            <div class="info">
+              <h5>Sadaka Website 🏆</h5>
+              <p>1<sup>st</sup> in Orange Hack</p>
+            </div>
+          </div>
+          <!--  -->
+
+          <!--  -->
+          <div class="cardd">
+            <a
+              target="_blank"
+              href="https://ahmadabdelhaddi.github.io/Service-taxi-Website/"
+              ><img
+                width="550px"
+                src="https://firstcarsblog.com/wp-content/uploads/2023/02/Hatta-Taxi-Cover-AR22023-1200x675.jpg"
+            /></a>
+            <div class="info">
+              <h5>Taxica Service</h5>
+              <p>Html/Css</p>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+      </div>
+      <!-- End Projects Section -->
+
+      <!-- Start Projects Section -->
+      <div class="projects">
+        <div class="text">
+          <h1>UI/UX Projects</h1>
+          <h6><a href="projects.html">See All</a></h6>
         </div>
 
         <div class="pro_info">
           <div class="cardd">
-            <a href=""><img src="pro_1.png" /></a>
+            <a
+              target="_blank"
+              href="https://www.behance.net/gallery/167825927/PizzaClick-Website-Landing-page-UIUX"
+              ><img src="pro_1.png"
+            /></a>
             <div class="info">
               <h5>PizzaCLick App</h5>
               <p>UI/UX</p>
@@ -157,45 +260,31 @@
           </div>
 
           <div class="cardd">
-            <a href=""><img src="pro_1.png" /></a>
+            <a
+              target="_blank"
+              href="https://www.behance.net/gallery/166807751/-UIUX"
+              ><img src="pro-2.png"
+            /></a>
             <div class="info">
-              <h5>PizzaCLick App</h5>
-              <p>UI/UX</p>
-            </div>
-          </div>
-
-          <div class="cardd">
-            <a href=""><img src="pro-2.png" /></a>
-            <div class="info">
-              <h5>Toronto Cupcake App</h5>
+              <h5>Cupcake App</h5>
               <p>UI/UX</p>
             </div>
           </div>
           <div class="cardd">
-            <a href=""><img src="pro_1.png" /></a>
+            <a
+              target="_blank"
+              href="https://www.behance.net/gallery/166807751/-UIUX"
+              ><img src="pro-2.png"
+            /></a>
             <div class="info">
-              <h5>PizzaCLick App</h5>
-              <p>UI/UX</p>
-            </div>
-          </div>
-
-          <div class="cardd">
-            <a href=""><img src="pro_1.png" /></a>
-            <div class="info">
-              <h5>PizzaCLick App</h5>
-              <p>UI/UX</p>
-            </div>
-          </div>
-
-          <div class="cardd">
-            <a href=""><img src="pro-2.png" /></a>
-            <div class="info">
-              <h5>Toronto Cupcake App</h5>
+              <h5>Cupcake App</h5>
               <p>UI/UX</p>
             </div>
           </div>
         </div>
       </div>
+      <!-- End Projects Section -->
+      <!-- End Projects Section -->
       <!-- End Projects Section -->
     </div>
 
